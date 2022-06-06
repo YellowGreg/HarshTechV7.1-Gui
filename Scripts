@@ -56,7 +56,7 @@ local Section = Tab:NewSection("Credit To Owner Who made the Script")
 
 local Section = Tab:NewSection("Some GUI Need To Function In The Real Game")
 
-
+local Section = Tab:NewSection("Feature: New Script added, some gui will now function")
 
 local Tab = Window:NewTab("GUI•HUB•Scripts")
 
@@ -2252,7 +2252,7 @@ counter = counter + 0.0075
 end
 end)
 
-Section:NewButton("Ragdoll Engine Gui 3", Give op Gui", function()
+Section:NewButton("Ragdoll Engine Gui 3", "Give op Gui", function()
 -- Gui to Lua
 -- Version: 3.2
 
@@ -3918,7 +3918,7 @@ end)
 
 local Section = Tab:NewSection("Raise A Floppa")
 
-Section:NewButtom("Raise a Floppa Gui 1", "Feed cat", function()
+Section:NewButton("Raise a Floppa Gui 1", "Feed cat", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
 end)
 
